@@ -1,0 +1,414 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*清除浮动*/
+.clear:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+/*定位*/
+.header{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.header .headerAd{
+	height: 40px;
+	width: 100%;
+	background: #444;
+}
+.header .headerAd .headerContent{
+	height: 40px;
+	width: 976px;
+	color: #a8a8aa;
+	font-size: 12px;
+	margin: 0 auto;
+	text-align:right;
+	line-height: 40px;
+}
+.nav{
+	margin: 0;
+	width: 100%;
+	min-width: 1024px;
+	height: 48px;
+	max-height: 44px;
+	background: rgba(45,45,45,0.98);
+	font-size: 17px;
+	float: left;
+}
+.nav .navContent{
+	width: 1200px;
+	height: 44px;
+	margin: 0px auto;
+}
+.nav .navContent a{
+	/*a标签模式是行标签，没有宽高。所以要设置为行块元素*/
+	display: inline-block;
+	width: 130px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	color: #fff;
+	font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	float: left;
+	text-decoration: none;
+}
+.nav .navContent a:hover{
+	opacity: .65;
+}
+.Ap{
+	background-image: url(../img/apple_logo.svg);
+	background-size: 16px 44px;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+}
+.sos{
+	background-image: url(../img/search.svg);
+	background-size: 16px 44px;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+}
+.buycar{
+	background-image: url(../img/buycar.svg);
+	background-size: 16px 44px;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+}
+/*ipx广告*/
+.ipxAd{
+	margin-top: 84px;
+	text-align: center;
+	background-color: #fafafa;
+	padding: 50px 20px;
+	
+}
+.ipxAd .ipxAdContent{
+	width: 980px;
+	margin: auto;
+	font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	color: #111;
+	font-style: normal
+}
+.ipxAd .ipxAdContent h2{
+	font-size: 32px;
+	line-height: 1.125;
+	font-weight: 600;
+	margin-bottom: 15px;
+	
+}
+.ipxAd .ipxAdContent span{
+	font-size: 21px;
+	line-height: 1.38105;
+	font-weight: 400;
+	letter-spacing: .011em;
+
+}
+.ipxAd .ipxAdContent a{
+	font-family: "SF Pro Icons";
+	color: #0070c9;
+	display: inline-block;
+	font-style: normal;
+	font-weight: inherit;
+	font-size: 21px;
+	line-height: 1;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 22px;
+}
+.ipxAd .ipxAdContent a:hover{
+	border-bottom: 1px solid cornflowerblue;
+}
+.ipxxad{
+	margin-top: 15px;
+	text-align: center;
+	background-color: #fafafa;
+	padding: 50px 20px;
+	background-image: url(../img/iphone_xr.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 692px;
+}
+#ip1{
+	background-image: url(../img/watch.jpg);
+	height: 600px;
+}
+#ip1 p{
+	font-size: 27px;
+	line-height: 1.14815;
+	margin-top: 6px;
+}
+.ipxxad h2{
+	font-size: 32px;
+	line-height: 1.125;
+	font-weight: 600;
+	margin-bottom: 15px;
+	font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	color: #111;
+	font-style: normal
+}
+.ipxxad p{
+	font-size: 21px;
+	line-height: 1.38105;
+	font-weight: 400;
+	letter-spacing: .011em;
+}
+.link a{
+	font-family: "SF Pro Icons";
+	color: #0070c9;
+	display: inline-block;
+	font-style: normal;
+	font-weight: inherit;
+	font-size: 21px;
+	line-height: 1;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 22px;
+}
+.link a:hover{
+	border-bottom: 1px solid cornflowerblue;
+}
+/*music及wcd界面*/
+
+.wccd{
+	width: 50%;
+	height: 600px;
+	float: left;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	border-top:12px solid #fff ;
+	border-bottom:12px solid #fff ;
+	border-left:12px solid #fff ;
+	border-right:6px solid #fff ;
+	background-image: url(../img/monkey.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	text-align: center;
+}
+.wccd h3{
+	margin-top: 30px;
+	padding: 0px;
+}
+.wccd h3 img{
+	width: 164px;
+	height: 31px;
+}
+.wccd p{
+	margin-top: 5px;
+}
+.wccd p a{
+	font-size: 21px;
+	color: #fff;
+    line-height: 1.2381;
+    font-weight: 400;
+	text-decoration: none;
+}
+
+.wccd #a1{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 18px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+    line-height: 1.23543;
+    font-weight: 400;
+	text-decoration: none;
+}
+.wccd #a1 img{
+	width: 11px;
+	height: 10px;
+}
+.wccd #a1:hover{
+	border-bottom: 1px solid #fff;
+}
+#d1{
+	float: right;
+	background-image: url(../img/apple_music__gdfamywhn6ye_large.jpg);
+}
+
+#d2 h2{
+	
+	letter-spacing: 0em;
+	margin-top: 52px;
+	
+}
+#d2 h2 a{
+	display: inline-block;
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: 600;
+	text-decoration: none;
+	color: #111;
+}
+#d2 p a{
+	color: #111;
+	font-size: 21px;
+	line-height: 1.2381;
+	font-weight: 400;
+}
+#d2 .link a{
+	font-size: 18px;
+}
+#d3 p a{
+	color: #111;
+	font-size: 21px;
+	line-height: 1.2381;
+	font-weight: 400;
+}
+#d3 .link a{
+	font-size: 18px;
+}
+#d3 h2{
+
+	letter-spacing: 0em;
+	margin-top: 52px;
+}
+#d3 h2 a{
+	display: inline-block;
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: 600;
+	text-decoration: none;
+	color: #111;
+}
+#d3{
+	float: right;
+	background-image: url(../img/apple_music__gdfamywhn6ye_large.jpg);
+
+}
+
+.bottomdiv{
+	
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+.bottomdiv .b_top{
+	width: 1100px;
+	padding: 10px 0;
+	margin:  0 auto;
+	border-bottom: 1px solid #ccc;
+}
+.bottomdiv .b_top p{
+	font-size: 12px;
+	color: #333;
+	margin: 10px 0;
+}
+.bottomdiv .b_top p a{
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+}
+.bottomdiv .b_top p a:hover{
+	color: black;
+	border-bottom: 1px solid black;
+}
+.bottomdiv .b_mian{
+	width: 1100px;
+	margin: 0 auto;
+	text-align: left;
+}
+.b_mian .item{
+	width: 20%;
+	float: left;
+}
+.item h2{
+	font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	padding: 10px 0;
+	font-size: 12px;
+	line-height: 1.33341;
+	font-weight: 600;
+	color: inherit;
+}
+.item a{
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	margin: 0 0 10px;
+}
+.bottomdiv .ha{
+	width: 1100px;
+	margin: 0 auto;
+	text-align: left;
+	border-bottom: 1px solid #d6d6d6;
+	font-size: 12px;
+	margin-top: 20px;
+	height: 30px;
+}
+.bottomdiv .ha p{
+	font-style: normal;
+	color: #888;
+	margin: 0px;
+}
+.bottomdiv .ha a{
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	text-align: inherit;
+	color: #0070c9;
+	text-decoration: none;
+}
+.bottomdiv .ha a:hover{
+	border-bottom: 1px solid #0070c9;
+}
+.bottomdiv .b_bottom{
+	width: 1100px;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: left;
+}
+.left{
+	padding: 10px 0px;
+}
+.left span{
+	
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	text-align: inherit;
+	color: #888;
+	float: left;
+}
+.left ul{
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+}
+.left ul li{
+	float: left;
+	padding: 0px 5px;
+	
+}
+.left ul li a{
+	color: #555;
+	text-decoration: none;
+	border-right: 1px solid #d6d6d6;
+	margin-right: 7px;
+	padding-right: 10px;
+	display: inline-block;
+	white-space: nowrap;
+}
+.left a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+#br{
+	border-right: none;
+}
+.b_bottom p{
+	color: #666;
+}
+.b_bottom p a{
+	color: #666;
+	text-decoration: none;
+}
+.b_bottom p a:hover{
+	color: #333;
+	text-decoration: underline;
+}
